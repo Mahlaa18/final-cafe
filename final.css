@@ -19,8 +19,17 @@ html, body{
 .main{
     flex: 1;
 }
-.nav{
-    margin: 0;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1%;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: auto;
 }
 .navbar{
     padding: 3rem 10rem;
@@ -31,6 +40,7 @@ html, body{
     align-items: center;
     background-color: #a68a64a3;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
 }
 .links{
     display: flex;
@@ -60,39 +70,62 @@ html, body{
 }
 .links a:focus{
     transform: scale(.5);
-    
+}
+.name{
+    font-size: 3rem;
+    display: flex;
+    align-items: start;
+    color: #5c3b2e;
+    margin-right: auto;
 }
 .imgs{
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
     gap: 1rem;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
 }
-.img1{
-    height: 45rem;
+.big{
+    height: 44rem;
     width: 35rem;
     border-radius: 1.5rem;
 }
-.img2{
-    height: 35rem;
+.big2{
+    height: 44rem;
+    width: 35rem;
+    border-radius: 1.5rem
+}
+.small{
+    height: 33.5rem;
     width: 35rem;
     border-radius: 1.5rem;
     align-self: flex-end;
 }
-.img3{
-    height: 45rem;
-    width: 35rem;
-    border-radius: 1.5rem;
+.bigs{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    gap: 1rem;
 }
 .info{
     background-color: #a68a64a3;
     width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     font-size: 2rem;
     box-shadow: 0 -.3rem 1rem .3rem rgba(0, 0, 0, 0.24);
     color: #414833;
     display: flex;
     justify-content: space-between;
+    padding: .5rem 2%;
+}
+.description{
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    height: .5rem;
+    width: .5rem;
+}
+.explanation{
+    font-size: 2rem;
 }
