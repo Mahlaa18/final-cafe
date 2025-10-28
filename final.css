@@ -160,6 +160,7 @@ header{
     font-weight: 400;
     font-style: normal;
 }
+
 @media only screen and (max-width: 1085px) {
   .navbar {
     font-size: .35rem;
