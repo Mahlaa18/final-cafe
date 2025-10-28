@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +12,7 @@ html, body{
 }
 .body{
     background-color: #fff8e1;
-    font-family: "Italiana", sans-serif;
-    font-weight: 750;
-    font-style: normal;
+    
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -41,6 +42,9 @@ header{
     background-color: #4e342e;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 1rem;
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .links{
     display: flex;
@@ -77,6 +81,9 @@ header{
     align-items: start;
     color: #f8bbd0;
     margin-right: auto;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 .imgs{
     display: flex;
@@ -121,7 +128,7 @@ header{
     align-self: flex-end;
     gap: 3rem;
 }
-.info{
+.info{ 
     background-color: #4e342e;
     width: 100%;
     position: absolute;
@@ -129,10 +136,13 @@ header{
     padding: 1rem 1rem;
     font-size: 2rem;
     box-shadow: 0 -.3rem 1rem .3rem rgba(0, 0, 0, 0.24);
-    color: #ffe0b2;
+    color: #f8bbd0;
     display: flex;
     justify-content: space-between;
     padding: .5rem 2%;
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .description{
     border: none;
@@ -144,34 +154,23 @@ header{
 }
 .explanation{
     font-size: 3rem;
-    margin: 7rem;
-    padding: 6rem;
+    margin: 5rem;
+    padding: 4rem;
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
-
-@media only screen and (max-width: 1147px) {
+@media only screen and (max-width: 1085px) {
   .navbar {
-    font-size: .4rem;
+    font-size: .35rem;
   }
 }
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 1003px) {
   .navbar {
     font-size: .3rem;
   }
 }
-@media only screen and (max-width: 1051px) {
-  .navbar {
-    font-size: .2rem;
-  }
-}
-@media only screen and (max-width: 1017px) {
-  .navbar {
-    font-size: .1rem;
-  }
-}
 @media only screen and (max-width: 992px) {
-  .navbar {
-    font-size: .005rem;
-  }
   .big{
     height: 40rem;
     width: 31rem;
@@ -198,7 +197,10 @@ header{
     font-size: 2rem;
   }
 }
-@media only screen and (max-width: 924px) {
+@media only screen and (max-width: 897px) {
+  .navbar{
+    font-size: .15rem;
+  }
   .big{
     height: 37rem;
     width: 27rem;
@@ -224,9 +226,9 @@ header{
     padding: 5.5rem;
   }  
 }
-@media only screen and (max-width: 853px) {
+@media only screen and (max-width: 854px) {
   .navbar {
-    font-size: .005rem;
+    font-size: .1rem;
   }
   .logo{
     height: 4rem;
@@ -265,4 +267,9 @@ header{
     margin: 5rem;
     padding: 4rem;
   }  
+}
+@media only screen and (max-width: 829px) {
+  .navbar{
+    font-size: .01rem;
+  }
 }
