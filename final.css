@@ -98,7 +98,7 @@ header{
 .big{
     height: 44rem;
     width: 35rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
 }
 .big:hover{
@@ -108,7 +108,8 @@ header{
 .big2{
     height: 44rem;
     width: 35rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
+    margin-right: 2rem;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
 }
 .big2:hover{
@@ -118,7 +119,8 @@ header{
     height: 33.5rem;
     width: 35rem;
     align-self: flex-end;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
+    margin-right: 2rem;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
 }
 .small:hover{
@@ -171,6 +173,28 @@ header{
   .navbar {
     font-size: .35rem;
   }
+  .explanation{
+    border: 0.1rem solid rgba(255, 255, 255, 0.104);
+  }
+  .big{
+    height: 42rem;
+    width: 33rem;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
+  }
+  .big2{
+    height: 42rem;
+    width: 33rem;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
+  }
+  .small{
+    height: 32rem;
+    width: 33rem;
+    align-self: flex-end;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
+  }
 }
 @media only screen and (max-width: 1133px) {
   .navbar {
@@ -181,20 +205,20 @@ header{
   .big{
     height: 40rem;
     width: 31rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .big2{
     height: 40rem;
     width: 31rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .small{
     height: 30rem;
     width: 31rem;
     align-self: flex-end;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .explanation{
@@ -202,6 +226,26 @@ header{
   }
   .name{
     font-size: 2rem;
+  }
+@media only screen and (max-width: 1070px){
+  }.big{
+    height: 38rem;
+    width: 28rem;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
+  }
+  .big2{
+    height: 38rem;
+    width: 28rem;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
+  }
+  .small{
+    height: 31rem;
+    width: 31rem;
+    align-self: flex-end;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
 }
 @media only screen and (max-width: 982px) {
@@ -211,25 +255,25 @@ header{
   .big{
     height: 37rem;
     width: 27rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .big2{
     height: 37rem;
     width: 27rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .small{
     height: 30rem;
     width: 30rem;
     align-self: flex-end;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .explanation{
     font-size: 3rem;
-    margin: 7rem;
+    margin: 1.5rem;
     padding: 2.5rem;
   }  
 }
@@ -240,18 +284,19 @@ header{
   .big{
     width: 26rem;
     height: 36rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .big2{
     width: 26rem;
     height: 36rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .small{
     width: 28rem;
     height: 28rem;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .bigs{
@@ -259,8 +304,8 @@ header{
   }
   .explanation{
     font-size: 3rem;
-    margin: 5rem;
-    padding: 4rem;
+    margin: 1rem;
+    padding: 2.5rem;
   }  
 }
 @media only screen and (max-width: 908px) {
@@ -300,18 +345,19 @@ header{
     .big{
     width: 24rem;
     height: 34rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .big2{
     width: 24rem;
     height: 34rem;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
   .small{
     width: 24rem;
     height: 24rem;
+    border-radius: 50% 20% / 10% 40%;
     box-shadow: rgba(14, 30, 37, 0.334) 0px 2px 4px 0px, rgba(14, 30, 37, 0.312) 0px 2px 16px 0px;
   }
 }
